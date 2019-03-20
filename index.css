@@ -1,0 +1,21 @@
+tbody tr td {
+    -webkit-box-shadow: inset 0px 0px 0px 1px;
+    -moz-box-shadow: inset 0px 0px 0px 1px;
+    box-shadow: inset 0px 0px 0px 1px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.upperLeft, .upperRight, .middleCenter, .lowerLeft, .lowerRight {
+    background-color: rgb(223, 223, 223);
+}
+
+.selectorRow td {
+    width: 35px;
+    height: 35px;
+}
+
+table {
+    margin: 0 auto;
+}

@@ -16,7 +16,7 @@
                 <tbody>
                     <tr id="topRowFirst">
                         <!-- Can be dynamically created instead of hardcoded -->
-                        <td class="upperLeft">1</td>
+                        <td class="upperLeft"></td>
                         <td class="upperLeft"></td>
                         <td class="upperLeft"></td>
 

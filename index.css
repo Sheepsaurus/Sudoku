@@ -16,6 +16,45 @@ tbody tr td {
     height: 35px;
 }
 
-table {
+footer {
+    background-color: grey;
+    height: 3%;
+}
+
+#side {
+    background-color: orange;
+    width: 10%;
+}
+
+#content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0 auto;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 87%;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the top navigation bar */
+#navbar {
+    display: flex;
+    height: 10%;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+#navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
 }

@@ -25,7 +25,7 @@ $(document).ready(function(){
     //for (var x = 0; x < 9; x++) console.log(rowGrid[x]); 
     GeneratePuzzle(rowGrid);
 
-    FillVisibleBoard();
+    FillVisibleBoard(rows, rowGrid);
 
     // Decremental generation
     // Go through all quadrants randomly, 
@@ -35,7 +35,7 @@ $(document).ready(function(){
     PlaceNewNumber(rows);
 })
 
-function FillVisibleBoard () {
+function FillVisibleBoard (rows, rowGrid) {
     for (var x = 0; x < 9; x++) {
         for (var y = 0; y < 9; y++) {
             var elements = rows[x].children();

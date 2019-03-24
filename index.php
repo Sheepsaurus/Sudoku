@@ -5,12 +5,44 @@
         <link rel="stylesheet" type="text/css" href="index.css">
         <!-- JQuery / Microsoft CDN -->
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-
     </head>
     <body>
-        <header id="navbar"></header>
+        <header></header>
         <div id="wrapper">
-            <div id="side"></div> 
+            <div id="navbar">   
+                <div class="homeDropdown">           
+                    <button class="homeButton">Home</button>
+                    <div class="home-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>   
+                <div class="genresDropdown">   
+                    <button class="genresButton">Genres</button>
+                    <div class="genres-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>  
+                </div>   
+                <div class="aboutDropdown"> 
+                    <button class="aboutButton">About</button>
+                    <div class="about-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> 
+                </div>  
+                <div class="contactDropdown"> 
+                    <button class="contactButton">Contact</button> 
+                    <div class="contact-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div> 
+                </div>              
+            </div> 
             <div id="content-wrapper">
                 <table>
                     <thead>
